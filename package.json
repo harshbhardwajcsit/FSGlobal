@@ -1,0 +1,30 @@
+{
+  "name": "starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start-dev": "ng serve",
+    "start": "node index.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.16",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "engines": {
+    "node": "9.3.0",
+    "npm": "6.4.1"
+  }
+}
